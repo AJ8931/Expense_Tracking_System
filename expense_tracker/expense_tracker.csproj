@@ -48,11 +48,29 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\expense_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\expense_form.Designer.cs">
+      <DependentUpon>expense_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\graph.Designer.cs">
+      <DependentUpon>graph.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\greating_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Screens\greating_form.Designer.cs">
       <DependentUpon>greating_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\income_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\income_form.Designer.cs">
+      <DependentUpon>income_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\login_form.cs">
       <SubType>Form</SubType>
@@ -65,6 +83,12 @@
     </Compile>
     <Compile Include="Screens\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\report_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\report_form.Designer.cs">
+      <DependentUpon>report_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\signup_form.cs">
       <SubType>Form</SubType>
@@ -87,8 +111,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Screens\expense_form.resx">
+      <DependentUpon>expense_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\greating_form.resx">
       <DependentUpon>greating_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\income_form.resx">
+      <DependentUpon>income_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\login_form.resx">
       <DependentUpon>login_form.cs</DependentUpon>

@@ -12,3 +12,5 @@ C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_t
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.signup_form.resources
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.Login.resources
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.Menu.resources
+C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.expense_form.resources
+C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.income_form.resources

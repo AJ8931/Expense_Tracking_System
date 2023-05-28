@@ -35,5 +35,13 @@ namespace expense_tracker.Screens
             signup.Show();
             this.Hide();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+            Menu M = new Menu();
+            M.Show();
+            this.Hide();
+        }
     }
 }

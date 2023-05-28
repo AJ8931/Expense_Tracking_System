@@ -62,6 +62,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Name
             // 
@@ -125,7 +126,7 @@
             this.Controls.Add(this.Name);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(5);
-            //this.Name = "Login";
+            this.Name = new System.Windows.Forms.Label();
             this.Text = "LOGIN";
             this.Load += new System.EventHandler(this.Login_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
