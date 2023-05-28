@@ -88,6 +88,7 @@
             this.button4.TabIndex = 32;
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // button3
             // 
@@ -114,6 +115,7 @@
             this.button2.TabIndex = 30;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // label2
             // 
@@ -301,7 +303,6 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "expense_form";
             this.Text = "expense_form";
             this.Load += new System.EventHandler(this.Expense_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

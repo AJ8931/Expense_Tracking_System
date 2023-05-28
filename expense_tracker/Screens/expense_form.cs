@@ -22,5 +22,19 @@ namespace expense_tracker.Screens
         {
 
         }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            Menu M = new Menu();
+            M.Show();
+            this.Close();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Menu M = new Menu();
+            M.Show();
+            this.Hide();
+        }
     }
 }
