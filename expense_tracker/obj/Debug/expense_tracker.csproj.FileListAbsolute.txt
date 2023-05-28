@@ -14,3 +14,27 @@ C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_t
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.Menu.resources
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.expense_form.resources
 C:\Users\K TECH\source\repos\expense_tracker\expense_tracker\obj\Debug\expense_tracker.Screens.income_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\expense_tracker.exe.config
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\expense_tracker.exe
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\expense_tracker.pdb
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.AssemblyReference.cache
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.SuggestedBindingRedirects.cache
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Properties.Resources.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.expense_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.greating_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.income_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.Login.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.Menu.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.signup_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.Screens.Templates.template_form.resources
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.GenerateResource.cache
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.CoreCompileInputs.cache
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.exe
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.pdb
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Business_Layer.exe
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Data_Layer.exe
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Business_Layer.pdb
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Business_Layer.exe.config
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Data_Layer.pdb
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Data_Layer.exe.config
+D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.CopyComplete
