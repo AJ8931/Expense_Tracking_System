@@ -28,7 +28,7 @@ namespace expense_tracker.Screens
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            obj.AddIncomeData(Login.signedInToken,textBox1.Text,Int32.Parse(textBox2.Text),textBox3.Text);
+            obj.AddIncomeData(Login.signedInToken,textBox1.Text,textBox2.Text,textBox3.Text);
             
             dataGridView1.DataSource = obj.getIcomeData(Login.signedInToken);
         }

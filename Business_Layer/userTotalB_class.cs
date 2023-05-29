@@ -15,5 +15,10 @@ namespace Business_Layer
         {
             return obj.getData(id);
         }
+
+        public void setTotals(string id,string totalIncome,string totalBudget) 
+        {
+            obj.setData(id,totalIncome,totalBudget);
+        }
     }
 }

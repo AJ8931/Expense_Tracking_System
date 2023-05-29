@@ -44,20 +44,26 @@ namespace expense_tracker.Screens
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            int matchedTokenNo = obj.signingIn(textBox1.Text, textBox2.Text).Rows.Count;
-            if ( matchedTokenNo > 0)
+            DataTable matchedTokenNo = obj.signingIn(textBox1.Text, textBox2.Text);
+            int tokenExists = matchedTokenNo.Rows.Count;
+
+           
+            if (tokenExists == 1)
             {
-                // obj.signedInUser = textBox1.Text;
-                //  obj.signedInUser = "textBox1.Text";
+                string token = matchedTokenNo.Rows[0]["id"].ToString();
 
-                string token = obj.signingIn(textBox1.Text, textBox2.Text).Rows[0]["id"].ToString();
-
-                Menu M = new Menu();
+                // because this form is made parent to all forms so these values become global
                 signedInToken = token;
                 signedInUser = textBox1.Text;
                 signedInUserTotal = obj1.getTotals(token);
+
+                Menu M = new Menu();
                 M.Show();
                 this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect credentials", "Warning", MessageBoxButtons.OK);
             }
 
 

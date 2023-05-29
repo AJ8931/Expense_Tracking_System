@@ -40,19 +40,24 @@ namespace Data_Layer
             return dt;
         }
 
-        public int checkDuplication(string un, string pd)
+        public DataTable getAllUser(string username)
         {
-            DataTable dupDt= getUserData(un, pd);
-            
-            for(int i=0;i<dupDt.Rows.Count;i++)
-            {
-                if (dupDt.Rows[0]["userName"] == un)
-                    return 1;
-                else 
-                    return 0;
-            }
-            return 0;
+
+            SqlCommand cmd = new SqlCommand("select * from user_info where userName=@un", con);
+            cmd.Parameters.AddWithValue("@un", username);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            SqlDataReader rd = cmd.ExecuteReader();
+            dt.Clear();
+            dt.Load(rd);
+            return dt;
         }
+
+
         public void setUserData(string username, string password, string id)
         {
             //checkDuplication(username, password);

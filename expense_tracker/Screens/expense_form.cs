@@ -42,7 +42,7 @@ namespace expense_tracker.Screens
 
         private void button1_Click(object sender, EventArgs e)
         {
-            obj.AddExpenseData(Login.signedInToken, textBox5.Text, Int32.Parse(textBox1.Text), textBox4.Text, textBox3.Text);
+            obj.AddExpenseData(Login.signedInToken, textBox5.Text, textBox1.Text, textBox4.Text, textBox3.Text);
             //string id, string categories, int price, int name, string detail
             dataGridView1.DataSource = obj.getExpenseData(Login.signedInToken);
         }

@@ -34,12 +34,9 @@ namespace expense_tracker.Screens
         {
             string tokenString = token.ToString();
 
-            obj.signingUp(textBox1.Text,textBox2.Text,tokenString);
+            string messageRecieved = obj.signingUp(textBox1.Text, textBox2.Text, textBox3.Text, tokenString);
 
-
-            DialogResult dr = MessageBox.Show("Account Created", "Signup", MessageBoxButtons.OK);
-
-            if (dr == DialogResult.OK)
+            if (messageRecieved == "successful")
             {
                 Login login = new Login();
                 login.Show();

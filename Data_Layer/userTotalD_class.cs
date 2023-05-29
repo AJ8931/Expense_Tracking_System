@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 
@@ -37,9 +38,29 @@ namespace Data_Layer
             return dt;
         }
 
-        public void setData(string id)
+        public void execQuery(SqlCommand cmd)
         {
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.Text;
+            cmd.ExecuteNonQuery();
+        }
+        public void setData(string id,string totalIncome, string totalBudget)
+        {
+            MessageBox.Show(totalIncome.ToString(), "as", MessageBoxButtons.OK);
 
+           /* string query = "insert into user_total (id,totalExpense,totalBudget) values (@id,@te,@tb)";
+            SqlCommand insertCmd = new SqlCommand(query);
+
+            insertCmd.Parameters.AddWithValue("@id", id);
+            insertCmd.Parameters.AddWithValue("@te", totalIncome);
+            insertCmd.Parameters.AddWithValue("@tb", totalBudget);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            execQuery(insertCmd); */
         }
     }
 }
