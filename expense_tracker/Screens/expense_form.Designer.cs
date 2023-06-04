@@ -103,6 +103,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Report";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -324,6 +325,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.Name = "expense_form";
             this.Text = "expense_form";
             this.Load += new System.EventHandler(this.Expense_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
