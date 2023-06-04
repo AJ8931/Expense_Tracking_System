@@ -13,7 +13,7 @@ namespace Data_Layer
 
     public class userAuthD_class
     {
-        public string ConString = "Data Source=DESKTOP-OCJ8U5N\\SQLEXPRESS;Initial Catalog=expense_tracker_proj;Integrated Security=True";
+        public static string ConString = "Data Source=ANAS-JAHANGIR\\SQLEXPRESS;Initial Catalog=expense_tracker_proj;Integrated Security=True";
         SqlConnection con = new SqlConnection();
         DataTable dt = new DataTable();
         public void execQuery(SqlCommand cmd)
@@ -58,18 +58,19 @@ namespace Data_Layer
         }
 
 
-        public void setUserData(string username, string password, string id)
+        public void setUserData(string username, string password, string id, DateTime j_date)
         {
             //checkDuplication(username, password);
 
            // MessageBox.Show(getUserData(username, password).Rows[0]["userName"].ToString(), "yes",MessageBoxButtons.OK);
 
-            string query = "insert into user_info (userName,password,id) values (@un,@ps,@id)";
+            string query = "insert into user_info (userName,password,id, joiningDate) values (@un,@ps,@id,@jd)";
             SqlCommand insertCmd = new SqlCommand(query);
             
             insertCmd.Parameters.AddWithValue("@un",username);
             insertCmd.Parameters.AddWithValue("@ps",password);
-            insertCmd.Parameters.AddWithValue("@id",id);
+            insertCmd.Parameters.AddWithValue("@id", id);
+            insertCmd.Parameters.AddWithValue("@jd", j_date);
 
             con.Close();
             con.ConnectionString = ConString;

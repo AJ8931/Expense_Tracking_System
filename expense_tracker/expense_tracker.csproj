@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -114,6 +115,9 @@
     <EmbeddedResource Include="Screens\expense_form.resx">
       <DependentUpon>expense_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\graph.resx">
+      <DependentUpon>graph.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\greating_form.resx">
       <DependentUpon>greating_form.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\report_form.resx">
+      <DependentUpon>report_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\signup_form.resx">
       <DependentUpon>signup_form.cs</DependentUpon>

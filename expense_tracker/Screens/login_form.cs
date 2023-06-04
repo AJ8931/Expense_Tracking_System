@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Business_Layer;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace expense_tracker.Screens
 {
@@ -20,6 +21,9 @@ namespace expense_tracker.Screens
         public static DataTable signedInUserTotal { get; set; }
 
         public static string signedInToken { get; set; }
+
+        public static int Elapsed_days;
+        public static DateTime Joining_date;
         public Login()
         {
             InitializeComponent();
@@ -51,7 +55,13 @@ namespace expense_tracker.Screens
             if (tokenExists == 1)
             {
                 string token = matchedTokenNo.Rows[0]["id"].ToString();
+                DateTime date = (DateTime)matchedTokenNo.Rows[0]["joiningDate"];
+                DateTime endDate = DateTime.Today.Date;
 
+                TimeSpan duration = endDate.Subtract(date);
+                Elapsed_days = duration.Days;
+                Joining_date = date;
+                MessageBox.Show(Elapsed_days.ToString()+Joining_date.ToString());
                 // because this form is made parent to all forms so these values become global
                 signedInToken = token;
                 signedInUser = textBox1.Text;

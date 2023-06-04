@@ -8,3 +8,13 @@ D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking Syst
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Data_Layer\obj\Debug\Data_Layer.exe
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Data_Layer\obj\Debug\Data_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.AssemblyReference.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.SuggestedBindingRedirects.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.Properties.Resources.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.GenerateResource.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.pdb

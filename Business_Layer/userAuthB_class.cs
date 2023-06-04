@@ -13,8 +13,6 @@ namespace Business_Layer
     public class userAuthB_class
     {
         userAuthD_class obj = new userAuthD_class();
-
-            string asdf;
         public int checkDuplication(string un)
         {
             DataTable dupDt = obj.getAllUser(un);
@@ -33,7 +31,7 @@ namespace Business_Layer
         }
 
 
-        public string signingUp(string username, string password,string confirmPassword, string id)
+        public string signingUp(string username, string password,string confirmPassword, string id, DateTime j_date)
         {
             //checks if username already exists
             if (checkDuplication(username)>0)
@@ -59,7 +57,7 @@ namespace Business_Layer
                     }
                     else
                     {
-                        obj.setUserData(username, password, id);
+                        obj.setUserData(username, password, id, j_date);
                         MessageBox.Show("account created", "successful", MessageBoxButtons.OK);
                         return "successful";
                     }

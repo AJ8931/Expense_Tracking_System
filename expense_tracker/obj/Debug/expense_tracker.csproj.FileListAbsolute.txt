@@ -38,3 +38,29 @@ D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking Syst
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Data_Layer.pdb
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\bin\Debug\Data_Layer.exe.config
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\expense_tracker\obj\Debug\expense_tracker.csproj.CopyComplete
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.AssemblyReference.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.SuggestedBindingRedirects.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Properties.Resources.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.expense_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.greating_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.income_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Login.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Menu.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.signup_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Templates.template_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.GenerateResource.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.CoreCompileInputs.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.CopyComplete
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.report_form.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.graph.resources

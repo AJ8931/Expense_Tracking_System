@@ -34,7 +34,7 @@ namespace expense_tracker.Screens
         {
             string tokenString = token.ToString();
 
-            string messageRecieved = obj.signingUp(textBox1.Text, textBox2.Text, textBox3.Text, tokenString);
+            string messageRecieved = obj.signingUp(textBox1.Text, textBox2.Text, textBox3.Text, tokenString, DateTime.Today.Date);
 
             if (messageRecieved == "successful")
             {

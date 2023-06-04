@@ -12,3 +12,17 @@ D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking Syst
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Business_Layer\obj\Debug\Business_Layer.csproj.CopyComplete
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Business_Layer\obj\Debug\Business_Layer.exe
 D:\WORK\PORTFOLIO\personal projs\personalProjs-in-DotNetC#\Expense Tracking System\Business_Layer\obj\Debug\Business_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Business_Layer.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Business_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Business_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Data_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Data_Layer.pdb
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\bin\Debug\Data_Layer.exe.config
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.csproj.AssemblyReference.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.csproj.SuggestedBindingRedirects.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.Properties.Resources.resources
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.csproj.GenerateResource.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.csproj.CoreCompileInputs.cache
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.csproj.CopyComplete
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.exe
+C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Business_Layer\obj\Debug\Business_Layer.pdb

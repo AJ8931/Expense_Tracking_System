@@ -16,7 +16,7 @@ namespace Data_Layer
     public class userTotalD_class
     {
 
-        public string ConString = "Data Source=DESKTOP-OCJ8U5N\\SQLEXPRESS;Initial Catalog=expense_tracker_proj;Integrated Security=True";
+        public string ConString = userAuthD_class.ConString;
         SqlConnection con = new SqlConnection();
         DataTable dt = new DataTable();
         public DataTable getData(string id)

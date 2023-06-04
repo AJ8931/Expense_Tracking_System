@@ -12,9 +12,9 @@ namespace Business_Layer
 {
     public class userIncomeB_class
     {
-        userIncomeD_class obj=new userIncomeD_class();
+        userIncomeD_class obj = new userIncomeD_class();
 
-        public void AddIncomeData(string id, string source, string income, string detail)
+        public void AddIncomeData(string id, string source, string income, string detail, string month)
         {
             
 
@@ -25,14 +25,25 @@ namespace Business_Layer
             else
             {
                 int incomeInInt = Int32.Parse(income) ;
-                obj.setData(id, source, incomeInInt, detail);
+                obj.setData(id, source, incomeInInt, detail, month);
             }
         }
 
-        public DataTable getIcomeData(string id)
+        public DataTable getIcomeData(string id, string month)
         {
-            return obj.getData(id);
+            return obj.getData(id, month);
         }
-        
+        public int totalIncome(string id, string month)
+        {
+            return obj.GetTotalIncomeSum(id, month);
+        }
+        public List<int> GetAllIncome(string id, string month)
+        {
+            return obj.GetAllIncomeValues(id, month);
+        }
+        public List<string> GetAllSource(string id, string month)
+        {
+            return obj.GetAllSourceValues(id, month);
+        }
     }
 }
