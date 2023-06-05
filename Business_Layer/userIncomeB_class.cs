@@ -45,5 +45,14 @@ namespace Business_Layer
         {
             return obj.GetAllSourceValues(id, month);
         }
+        public bool updateIncomeData(string id, int income, string month, string source, string newIncome, string newSource, string newDetail)
+        {
+            int incomeInInt = Int32.Parse(newIncome);
+            return obj.updateData(id,income,month,source, incomeInInt, newSource,newDetail);
+        }
+        public bool deleteIncomeData(string id, string month, string source, int income)
+        {
+            return obj.deleteData(id,month,source,income);
+        }
     }
 }

@@ -96,21 +96,28 @@ namespace Data_Layer
         }
         public DataTable getData(string id, string month)
         {
+            DataTable dt = new DataTable();
 
-            SqlCommand cmd = new SqlCommand("select * from user_income where id= @id AND Month = @month", con);
-            cmd.Parameters.AddWithValue("@id", id);
-            cmd.Parameters.AddWithValue("@month", month);
-
-            con.Close();
-            con.ConnectionString = ConString;
-            if (ConnectionState.Closed == con.State)
+            using (SqlConnection con = new SqlConnection(ConString))
+            {
                 con.Open();
 
-            SqlDataReader rd = cmd.ExecuteReader();
-            dt.Clear();
-            dt.Load(rd);
+                string query = "SELECT * FROM user_income WHERE id = @id AND Month = @month";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@month", month);
+
+                    using (SqlDataReader rd = cmd.ExecuteReader())
+                    {
+                        dt.Load(rd);
+                    }
+                }
+            }
+
             return dt;
         }
+
 
 
         public void execQuery(SqlCommand cmd)
@@ -138,7 +145,46 @@ namespace Data_Layer
 
             execQuery(insertCmd);
         }
+        public bool updateData(string id, int income, string month, string source, int newIncome, string newSource, string newDetail)
+        {
+            string query = "UPDATE user_income SET income = @newIncome, source = @newSource, detail = @newDetail WHERE id = @id AND income = @income AND Month = @month AND source = @source";
+            SqlCommand updateCmd = new SqlCommand(query);
 
+            updateCmd.Parameters.AddWithValue("@newIncome", newIncome);
+            updateCmd.Parameters.AddWithValue("@newSource", newSource);
+            updateCmd.Parameters.AddWithValue("@newDetail", newDetail);
+            updateCmd.Parameters.AddWithValue("@id", id);
+            updateCmd.Parameters.AddWithValue("@income", income);
+            updateCmd.Parameters.AddWithValue("@month", month);
+            updateCmd.Parameters.AddWithValue("@source", source);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            execQuery(updateCmd);
+            return true;
+        }
+
+        public bool deleteData(string id, string month, string source, int income)
+        {
+            string query = "DELETE FROM user_income WHERE id = @id AND Month = @month AND source = @source AND income = @income";
+            SqlCommand deleteCmd = new SqlCommand(query);
+
+            deleteCmd.Parameters.AddWithValue("@id", id);
+            deleteCmd.Parameters.AddWithValue("@month", month);
+            deleteCmd.Parameters.AddWithValue("@source", source);
+            deleteCmd.Parameters.AddWithValue("@income", income);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            execQuery(deleteCmd);
+            return true;
+        }
 
     }
 }

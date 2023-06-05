@@ -103,6 +103,18 @@
     <Compile Include="Screens\Templates\template_form.Designer.cs">
       <DependentUpon>template_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\Update_expenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Update_expenseForm.Designer.cs">
+      <DependentUpon>Update_expenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Update_IncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Update_IncomeForm.Designer.cs">
+      <DependentUpon>Update_IncomeForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -138,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\Templates\template_form.resx">
       <DependentUpon>template_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Update_expenseForm.resx">
+      <DependentUpon>Update_expenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Update_IncomeForm.resx">
+      <DependentUpon>Update_IncomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -29,10 +29,29 @@ namespace expense_tracker.Screens
             dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.Aqua;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.Columns[3].Visible = false;
+            dataGridView1.AllowUserToAddRows = false;
             cmbCategory.DataSource = categories.getCategories();
             cmbCategory.DisplayMember = "category";
             cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
 
+        }
+        public void AddGridButtons()
+        {
+            DataGridViewButtonColumn buttonColumn = new DataGridViewButtonColumn();
+            buttonColumn.HeaderText = "Update";
+            buttonColumn.Name = "Update";
+            buttonColumn.Text = "Update";
+            buttonColumn.UseColumnTextForButtonValue = true;
+
+            DataGridViewButtonColumn buttonColumn2 = new DataGridViewButtonColumn();
+            buttonColumn2.HeaderText = "Delete";
+            buttonColumn2.Name = "Delete";
+            buttonColumn2.Text = "Delete";
+            buttonColumn2.UseColumnTextForButtonValue = true;
+
+            // Add the button column to the DataGridView
+            dataGridView1.Columns.Add(buttonColumn);
+            dataGridView1.Columns.Add(buttonColumn2);
         }
 
 
@@ -42,6 +61,7 @@ namespace expense_tracker.Screens
             expense.Text = "Expense: " + obj.totalPrice(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString()).ToString();
             budget.Text = "Budget: " + inc.totalIncome(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString()).ToString();
             gridUI();
+            AddGridButtons();
         }
 
         private void Button4_Click(object sender, EventArgs e)
@@ -65,14 +85,55 @@ namespace expense_tracker.Screens
             expense.Text = "Expense: " + obj.totalPrice(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString()).ToString();
         }
 
+        public void reload()
+        {
+            dataGridView1.DataSource = null;
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns.Clear();
+            dataGridView1.DataSource = obj.getExpenseData(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString());
+            expense.Text = "Expense: " + obj.totalPrice(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString()).ToString();
+            budget.Text = "Budget: " + inc.totalIncome(Login.signedInToken, ut.MonthStringGenerator(Login.Elapsed_days).ToString()).ToString();
+            gridUI();
+            AddGridButtons();
+        }
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-                // Get the index of the clicked cell
-                int rowIndex = e.RowIndex;
-                int columnIndex = e.ColumnIndex;
+            if (e.ColumnIndex >= 0 && e.ColumnIndex == 8)  // Check if a valid row is clicked (excluding header row)
+            {
+                DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+                // Access the data from the cells in the selected row
+                string value1 = selectedRow.Cells["categories"].Value.ToString();
+                int value2 = (int)selectedRow.Cells["price"].Value;
+                string value3 = selectedRow.Cells["name"].Value.ToString();
+                string value4 = selectedRow.Cells["detail"].Value.ToString();
+                string value5 = selectedRow.Cells["Month"].Value.ToString();
+                string value6 = selectedRow.Cells["Mandatory"].Value.ToString();
+                bool mandatory = Convert.ToBoolean(value6);
 
-                // Display the index as a message
-                MessageBox.Show($"Clicked cell index: ({rowIndex}, {columnIndex})");
+                Update_expenseForm updateIncomeForm = new Update_expenseForm(value1, value2, value3, value4, value5, mandatory);
+                updateIncomeForm.Show();
+                this.Hide();
+            }
+            else if (e.ColumnIndex == 9)
+            {
+                DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+                // Access the data from the cells in the selected row
+                string value1 = selectedRow.Cells["categories"].Value.ToString();
+                int value2 = (int)selectedRow.Cells["price"].Value;
+                string value3 = selectedRow.Cells["Month"].Value.ToString();
+                string value4 = selectedRow.Cells["name"].Value.ToString();
+                bool check = obj.deleteExpenseData(Login.signedInToken, value3, value1, value2, value4);
+                if (check)
+                {
+
+                    MessageBox.Show("Deleted");
+                    reload();
+                }
+            }
+            else
+            {
+
+            }
         }
 
         private void chkMan_CheckedChanged(object sender, EventArgs e)
@@ -91,6 +152,11 @@ namespace expense_tracker.Screens
             report_form report = new report_form();
             report.Show();
             this.Hide();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

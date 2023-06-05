@@ -24,7 +24,7 @@ namespace Business_Layer
             else
             {
                 int priceInInt = Int32.Parse(price);
-            obj.setData( id, categories, priceInInt,  name,  detail, month, Mandatory);
+                obj.setData(id, categories, priceInInt, name, detail, month, Mandatory);
             }
         }
 
@@ -53,6 +53,14 @@ namespace Business_Layer
         public List<string> GetAllCategories(string id, string month)
         {
             return obj.GetAllCategoriesValues(id, month);
+        }
+        public bool updateExpensesData(string id, string newCategory, string newName, string newDetail, string newprice, string category, string month, int price, bool mandatory)
+        {
+            return obj.updateData(id, newCategory, newName, newDetail, newprice, category, month, price, mandatory);
+        }
+        public bool deleteExpenseData(string id, string month, string category, int price, string name)
+        {
+            return obj.deleteData(id, month, category, price, name);
         }
     }
 }

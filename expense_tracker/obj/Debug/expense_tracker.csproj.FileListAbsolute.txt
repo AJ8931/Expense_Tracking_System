@@ -64,3 +64,5 @@ C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\e
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.pdb
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.report_form.resources
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.graph.resources
+C:\Users\K TECH\source\repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_IncomeForm.resources
+C:\Users\K TECH\source\repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_expenseForm.resources

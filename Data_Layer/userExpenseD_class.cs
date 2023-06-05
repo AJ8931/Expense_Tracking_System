@@ -192,5 +192,48 @@ namespace Data_Layer
 
             execQuery(insertCmd);
         }
+        public bool updateData(string id, string newCategory, string newName, string newDetail, string newprice, string category, string month, int price, bool mandatory)
+        {
+            string query = "UPDATE user_expense SET categories = @ct, name = @name, detail = @dt, price = @pr, Mandatory = @Mn WHERE id = @id AND categories = @category AND Month = @month AND price = @price";
+            SqlCommand updateCmd = new SqlCommand(query);
+
+            updateCmd.Parameters.AddWithValue("@ct", newCategory);
+            updateCmd.Parameters.AddWithValue("@name", newName);
+            updateCmd.Parameters.AddWithValue("@dt", newDetail);
+            updateCmd.Parameters.AddWithValue("@pr", newprice);
+            updateCmd.Parameters.AddWithValue("@id", id);
+            updateCmd.Parameters.AddWithValue("@category", category);
+            updateCmd.Parameters.AddWithValue("@month", month);
+            updateCmd.Parameters.AddWithValue("@price", price);
+            updateCmd.Parameters.AddWithValue("@Mn", mandatory);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            execQuery(updateCmd);
+            return true;
+        }
+
+        public bool deleteData(string id, string month, string category, int price, string name)
+        {
+            string query = "DELETE FROM user_expense WHERE id = @id AND Month = @month AND categories = @ct AND price = @pr AND name = @nm";
+            SqlCommand deleteCmd = new SqlCommand(query);
+
+            deleteCmd.Parameters.AddWithValue("@id", id);
+            deleteCmd.Parameters.AddWithValue("@month", month);
+            deleteCmd.Parameters.AddWithValue("@ct", category);
+            deleteCmd.Parameters.AddWithValue("@pr", price);
+            deleteCmd.Parameters.AddWithValue("@nm", name);
+
+            con.Close();
+            con.ConnectionString = ConString;
+            if (ConnectionState.Closed == con.State)
+                con.Open();
+
+            execQuery(deleteCmd);
+            return true;
+        }
     }
 }
