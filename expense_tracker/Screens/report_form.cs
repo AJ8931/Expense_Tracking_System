@@ -109,9 +109,14 @@ namespace expense_tracker.Screens
             this.Hide();
         }
         private void PrintDoc_PrintPage(object sender, PrintPageEventArgs e)
-        {
+        { // Set the page orientation to landscape
+            e.PageSettings.Landscape = true;
+
+            // Capture the form as an image
             Bitmap bitmap = new Bitmap(ClientSize.Width, ClientSize.Height);
             DrawToBitmap(bitmap, new Rectangle(0, 0, ClientSize.Width, ClientSize.Height));
+
+            // Draw the image on the printed page
             e.Graphics.DrawImage(bitmap, 0, 0);
         }
         private void btn_exit_Click(object sender, EventArgs e)
