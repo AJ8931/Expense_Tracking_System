@@ -126,6 +126,7 @@
             this.btn_exit.TabIndex = 12;
             this.btn_exit.Text = "Print Report";
             this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // splitContainer3
             // 

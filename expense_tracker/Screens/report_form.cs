@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -106,6 +107,25 @@ namespace expense_tracker.Screens
             graph graph = new graph();
             graph.Show();
             this.Hide();
+        }
+        private void PrintDoc_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            Bitmap bitmap = new Bitmap(ClientSize.Width, ClientSize.Height);
+            DrawToBitmap(bitmap, new Rectangle(0, 0, ClientSize.Width, ClientSize.Height));
+            e.Graphics.DrawImage(bitmap, 0, 0);
+        }
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            PrintDocument printDoc = new PrintDocument();
+            printDoc.PrintPage += PrintDoc_PrintPage;
+
+            PrintDialog printDialog = new PrintDialog();
+            printDialog.Document = printDoc;
+
+            if (printDialog.ShowDialog() == DialogResult.OK)
+            {
+                printDoc.Print();
+            }
         }
     }
 }
