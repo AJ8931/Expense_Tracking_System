@@ -66,3 +66,31 @@ C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\e
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.graph.resources
 C:\Users\K TECH\source\repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_IncomeForm.resources
 C:\Users\K TECH\source\repos\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_expenseForm.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.exe.config
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\expense_tracker.pdb
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.pdb
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Business_Layer.exe.config
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.pdb
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\bin\Debug\Data_Layer.exe.config
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.AssemblyReference.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.SuggestedBindingRedirects.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Properties.Resources.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.expense_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.graph.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.greating_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.income_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Login.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Menu.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.report_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.signup_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Templates.template_form.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_expenseForm.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.Screens.Update_IncomeForm.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.GenerateResource.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.CoreCompileInputs.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.csproj.CopyComplete
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\expense_tracker\obj\Debug\expense_tracker.pdb

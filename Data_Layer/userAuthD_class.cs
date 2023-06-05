@@ -13,7 +13,7 @@ namespace Data_Layer
 
     public class userAuthD_class
     {
-        public static string ConString = "Data Source=ANAS-JAHANGIR\\SQLEXPRESS;Initial Catalog=expense_tracker_proj;Integrated Security=True";
+        public static string ConString = "Data Source=DESKTOP-OCJ8U5N\\SQLEXPRESS;Initial Catalog=expense_tracker_proj_2;Integrated Security=True";
         SqlConnection con = new SqlConnection();
         DataTable dt = new DataTable();
         public void execQuery(SqlCommand cmd)

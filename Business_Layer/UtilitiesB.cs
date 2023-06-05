@@ -13,11 +13,11 @@ namespace Business_Layer
         UtilitiesD ut = new UtilitiesD();
         public DataTable MonthList(int daysPassed)
         {
-            return ut.GenerateMonthTable(daysPassed);
+            return ut.GenerateMonthTable(++daysPassed);
         }
         public string MonthStringGenerator(int daysPassed)
         {
-            return ut.calculateMonth(daysPassed);
+            return ut.calculateMonth(++daysPassed);
         }
     }
 }

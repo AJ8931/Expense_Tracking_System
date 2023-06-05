@@ -18,3 +18,13 @@ C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_L
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.exe
 C:\Users\K TECH\Source\Repos\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.pdb
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.exe.config
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\bin\Debug\Data_Layer.pdb
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.AssemblyReference.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.SuggestedBindingRedirects.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.Properties.Resources.resources
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.GenerateResource.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.exe
+D:\WORK\problemsing\expense-tracking-system\Expense_Tracking_System\Data_Layer\obj\Debug\Data_Layer.pdb
