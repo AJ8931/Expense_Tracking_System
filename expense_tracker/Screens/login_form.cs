@@ -61,7 +61,6 @@ namespace expense_tracker.Screens
                 TimeSpan duration = endDate.Subtract(date);
                 Elapsed_days = duration.Days;
                 Joining_date = date;
-                MessageBox.Show(Elapsed_days.ToString()+Joining_date.ToString());
                 // because this form is made parent to all forms so these values become global
                 signedInToken = token;
                 signedInUser = textBox1.Text;

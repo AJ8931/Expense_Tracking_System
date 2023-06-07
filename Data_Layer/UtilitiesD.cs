@@ -17,7 +17,7 @@ namespace Data_Layer
             int daysInMonth = 30; // Assuming each month has 30 days
 
             numMonths = daysPassed / daysInMonth;
-            MessageBox.Show(daysPassed.ToString(), "asdf", MessageBoxButtons.OK);
+            //MessageBox.Show(daysPassed.ToString(), "asdf", MessageBoxButtons.OK);
 
             if (daysPassed % daysInMonth != 0)
             {

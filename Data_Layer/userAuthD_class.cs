@@ -22,6 +22,13 @@ namespace Data_Layer
             cmd.CommandType = CommandType.Text;
             cmd.ExecuteNonQuery();
         }
+
+        public void execQueryForStoredProcedure(SqlCommand cmd)
+        {
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.ExecuteNonQuery();
+        }
         public DataTable getUserData(string username, string password)
         {
 
@@ -64,7 +71,7 @@ namespace Data_Layer
 
            // MessageBox.Show(getUserData(username, password).Rows[0]["userName"].ToString(), "yes",MessageBoxButtons.OK);
 
-            string query = "insert into user_info (userName,password,id, joiningDate) values (@un,@ps,@id,@jd)";
+            string query = "SignUp";
             SqlCommand insertCmd = new SqlCommand(query);
             
             insertCmd.Parameters.AddWithValue("@un",username);
@@ -77,7 +84,7 @@ namespace Data_Layer
             if (ConnectionState.Closed == con.State)
                 con.Open();
 
-            execQuery(insertCmd);
+            execQueryForStoredProcedure(insertCmd);
         }
 
 
